@@ -158,11 +158,11 @@ func (s *SuperAgent) ClearSuperAgent() {
 	s.Url = ""
 	s.Method = ""
 	s.Header = http.Header{}
-	s.Data = make(map[string]interface{})
-	s.SliceData = []interface{}{}
-	s.FormData = url.Values{}
-	s.QueryData = url.Values{}
-	s.FileData = make([]File, 0)
+	//s.Data = make(map[string]interface{})
+	//s.SliceData = []interface{}{}
+	//s.FormData = url.Values{}
+	//s.QueryData = url.Values{}
+	//s.FileData = make([]File, 0)
 	s.BounceToRawString = false
 	s.RawString = ""
 	s.ForceType = ""
